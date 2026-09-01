@@ -1,0 +1,52 @@
+{
+  "name": "kunlunxin-xpu",
+  "displayName": "KunlunXin XPU Syntax Highlighting",
+  "description": "Syntax highlighting for KunlunXin XTDK .xpu kernel source files.",
+  "version": "0.1.0",
+  "publisher": "99change",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/99change/vscode-kunlunxin-xpu.git"
+  },
+  "homepage": "https://github.com/99change/vscode-kunlunxin-xpu#readme",
+  "bugs": {
+    "url": "https://github.com/99change/vscode-kunlunxin-xpu/issues"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "kunlunxin",
+    "xpu",
+    "xtdk",
+    "kernel",
+    "syntax highlighting"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "kunlunxin-xpu",
+        "aliases": [
+          "KunlunXin XPU",
+          "XPU"
+        ],
+        "extensions": [
+          ".xpu"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "kunlunxin-xpu",
+        "scopeName": "source.kunlunxin-xpu",
+        "path": "./syntaxes/kunlunxin-xpu.tmLanguage.json"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "KunlunXin XPU",
+  "scopeName": "source.kunlunxin-xpu",
+  "patterns": [
+    {
+      "include": "#xpu-address-spaces"
+    },
+    {
+      "include": "#xpu-memory-transfers"
+    },
+    {
+      "include": "#xpu-synchronization"
+    },
+    {
+      "include": "#xpu-topology"
+    },
+    {
+      "include": "source.cuda-cpp"
+    }
+  ],
+  "repository": {
+    "xpu-address-spaces": {
+      "patterns": [
+        {
+          "match": "\\b(?:__simd__|__local__)\\b",
+          "name": "storage.modifier.address-space.kunlunxin-xpu"
+        }
+      ]
+    },
+    "xpu-memory-transfers": {
+      "patterns": [
+        {
+          "match": "\\b(?:GM2LM|LM2GM)(?:_ASYNC)?\\b(?=\\s*\\()",
+          "name": "support.function.memory-transfer.kunlunxin-xpu"
+        }
+      ]
+    },
+    "xpu-synchronization": {
+      "patterns": [
+        {
+          "match": "\\b(?:mfence(?:_(?:lm|sm|local))?|sync_(?:all|group))\\b(?=\\s*\\()",
+          "name": "support.function.synchronization.kunlunxin-xpu"
+        }
+      ]
+    },
+    "xpu-topology": {
+      "patterns": [
+        {
+          "match": "\\b(?:core_id|core_num|cluster_id|cluster_num)\\b(?=\\s*\\()",
+          "name": "support.function.topology.kunlunxin-xpu"
+        }
+      ]
+    }
+  }
+}
