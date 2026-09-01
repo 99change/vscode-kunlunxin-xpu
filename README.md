@@ -19,7 +19,7 @@ To package the extension from source:
 npx @vscode/vsce package
 ```
 
-After installation, open any `.xpu` file. The language mode should be **KunlunXin XPU**.
+After installation, open any `.xpu` file. The language mode should be **XPU**.
 
 ## Scope
 
@@ -30,4 +30,3 @@ The extension is an independent community project and is not affiliated with or 
 ## License
 
 [MIT](LICENSE)
-
