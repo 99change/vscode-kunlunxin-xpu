@@ -1,5 +1,9 @@
 # KunlunXin XPU Syntax Highlighting
 
+<p align="center">
+  <img src="assets/icon.png" alt="XPU Syntax Highlighting logo" width="160">
+</p>
+
 `.xpu` files looking a little gray? This tiny extension tells VS Code, "Just treat them like CUDA C++." Colors are back. That's it.
 
 ## What It Does
@@ -17,10 +21,6 @@ npx @vscode/vsce package
 ```
 
 After installation, open any `.xpu` file. The language mode should be **XPU**.
-
-## No Magic
-
-Just colors. No completion, compiler, debugger, or other fancy stuff.
 
 The extension is an independent community project and is not affiliated with or endorsed by KunlunXin.
 

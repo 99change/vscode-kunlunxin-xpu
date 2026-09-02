@@ -2,8 +2,9 @@
   "name": "kunlunxin-xpu",
   "displayName": "KunlunXin XPU Syntax Highlighting",
   "description": "No colors in .xpu? Let VS Code treat it like CUDA C++.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "99change",
+  "icon": "assets/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",

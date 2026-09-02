@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Add the project logo.
+
 ## 0.1.2
 
 - Keep the description as tiny and cheerful as the extension itself.
