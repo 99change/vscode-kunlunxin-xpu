@@ -1,8 +1,8 @@
 {
   "name": "kunlunxin-xpu",
   "displayName": "KunlunXin XPU Syntax Highlighting",
-  "description": "Syntax highlighting for KunlunXin XTDK .xpu kernel source files.",
-  "version": "0.1.1",
+  "description": "No colors in .xpu? Let VS Code treat it like CUDA C++.",
+  "version": "0.1.2",
   "publisher": "99change",
   "license": "MIT",
   "repository": {

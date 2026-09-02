@@ -1,13 +1,10 @@
 # KunlunXin XPU Syntax Highlighting
 
-A minimal Visual Studio Code extension for KunlunXin XTDK `.xpu` kernel source files.
+`.xpu` files looking a little gray? This tiny extension tells VS Code, "Just treat them like CUDA C++." Colors are back. That's it.
 
-## Features
+## What It Does
 
-- Recognizes `.xpu` files automatically.
-- Reuses VS Code's built-in CUDA C++ grammar for C++, CUDA-style qualifiers, templates, comments, strings, and preprocessor directives.
-- Adds highlighting for common XTDK constructs such as `__simd__`, `__local__`, `GM2LM`, `LM2GM`, `mfence`, and XPU topology functions.
-- Contains no runtime code, network access, telemetry, compiler integration, or settings.
+It makes VS Code treat `.xpu` files like CUDA C++ for syntax highlighting.
 
 ## Installation
 
@@ -21,9 +18,9 @@ npx @vscode/vsce package
 
 After installation, open any `.xpu` file. The language mode should be **XPU**.
 
-## Scope
+## No Magic
 
-This extension provides syntax highlighting and basic editor behavior only. It does not provide code completion, diagnostics, formatting, compilation, or debugging.
+Just colors. No completion, compiler, debugger, or other fancy stuff.
 
 The extension is an independent community project and is not affiliated with or endorsed by KunlunXin.
 

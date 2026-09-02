@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Keep the description as tiny and cheerful as the extension itself.
+
 ## 0.1.1
 
 - Display `XPU` as the language mode name in the Visual Studio Code status bar.
