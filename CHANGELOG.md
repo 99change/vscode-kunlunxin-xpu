@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Keep the logo as the extension icon only.
+
 ## 0.1.3
 
 - Add the project logo.
