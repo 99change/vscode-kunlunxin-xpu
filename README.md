@@ -1,9 +1,5 @@
 # KunlunXin XPU Syntax Highlighting
 
-<p align="center">
-  <img src="assets/icon.png" width="160">
-</p>
-
 `.xpu` files looking a little gray? This tiny extension tells VS Code, "Just treat them like CUDA C++." Colors are back. That's it.
 
 ## What It Does
